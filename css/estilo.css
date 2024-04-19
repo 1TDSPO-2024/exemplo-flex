@@ -40,3 +40,27 @@ a{
       background-color: #1e4ac5;
   }
 }
+
+h2{
+  text-align: center;
+  margin: 3%;
+}
+
+#pets{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  gap:10px;
+
+  figure{
+    flex: 1 1 200px;
+   
+  }
+
+  img{
+    max-width: 100%;
+    display: block;
+  }
+
+}
